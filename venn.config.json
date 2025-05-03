@@ -2,9 +2,9 @@
     "networks": {
         "holesky": {
             "contracts":{
-                "Rare": "0x123" //Replace wwith your deployed contract address 
+                "Rare": "0x123"
             },
-            "policyAddress": "0x123.." // REPLACE WITH YOUR POLICY ADDRESS 
+            "policyAddress": "0x123.."
         }
     }
 }
