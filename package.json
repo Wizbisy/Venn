@@ -1,0 +1,12 @@
+{
+  "name": "hardhat-project",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.23.0"
+  },
+  "dependencies": {
+    "@ironblocks/firewall-consumer": "^1.0.17",
+    "@vennbuild/venn-dapp-sdk": "^0.8.8",
+    "dotenv": "^16.5.0"
+  }
+}
