@@ -42,4 +42,36 @@ run
 npx hardhat compile
 ```
 ### 5. Deploy the smart contract 
-Deploy the contract to Holesky
+Deploy the contract to Holesky testnet.
+```bash
+npx hardhat run scripts/deploy.js --network holesky
+```
+Get your smart contract and update the `venn.config.json` file with your actual smart contract.
+
+### 6. Register with Venn cli 
+after updating the `venn.config.json` file run 
+```bash
+venn enable --network holesky
+```
+then get your your POLICY ADDRESS from the terminal and update the .env file
+
+### 7. Setup Dapp SDK.
+Use the Venn DApp SDK to approve transactions before sending them on-chain 
+reupdate the `venm.config.json` file with 
+```bash
+{
+    "networks": {
+        "holesky": {
+            "contracts": {
+                "Rare": "0xYourContractAddress"
+            },
+            "policyAddress": "yourpolicyaddress"
+        }
+    }
+}
+```
+after updating the file finally run
+```bash
+npx hardhat run scripts/approve-tx.js --network holesky
+```
+now head to the (galxe task)[https://app.galxe.com/quest/nj4xyZSwmKCysKVriKTCi6/GCg8NtpjAD] amd verify to claim the points.
