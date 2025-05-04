@@ -74,4 +74,4 @@ after updating the file finally run
 ```bash
 npx hardhat run scripts/approve-tx.js --network holesky
 ```
-now head to the (galxe task)[https://app.galxe.com/quest/nj4xyZSwmKCysKVriKTCi6/GCg8NtpjAD] amd verify to claim the points.
+now head to the [galxe task](https://app.galxe.com/quest/nj4xyZSwmKCysKVriKTCi6/GCg8NtpjAD) amd verify to claim the points.
