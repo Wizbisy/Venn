@@ -3,7 +3,8 @@
         "holesky": {
             "contracts":{
                 "Rare": "0xYourContractAddress"
-            }
+            },
+            "policyAddress": "yourpolicyaddress"
         }
     }
 }
