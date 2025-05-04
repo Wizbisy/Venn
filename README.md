@@ -9,7 +9,7 @@ This project demonstrates how to deploy a smart contract to the Venn Testnet (Ho
 - **MetaMask**: A wallet with Holesky ETH for deployment and testing (request from [holesky-faucet.com](https://holesky-faucet.com)).
 - **Git**: To clone the repository.
 - **Terminal**: Use a terminal like Command Prompt (Windows), Terminal (macOS/Linux).
-## Setup
+## Steps
 
 ### 1. Clone the Repository
 Open a terminal and clone the repository:
@@ -32,7 +32,7 @@ VENN_NODE_URL=https://signer2.testnet.venn.build/api/17000/sign
 VENN_POLICY_ADDRESS=your_policy_address
 ```
 VENN_PRIVATE_KEY; Your metamask private key containing holesky eth.
-VENN_POLICY_ADDRESS: Your policy address gotten after registering your smart contract with venn.
+VENN_POLICY_ADDRESS: Your policy address gotten after registering your smart contract with venn in step 6
 
 ### 4. compile the smart contract 
 run
@@ -52,10 +52,10 @@ after updating the `venn.config.json` file run
 ```bash
 venn enable --network holesky
 ```
-then get your POLICY ADDRESS from your terminal result ![Alt text](./Img/image.png) and update the `.env` and `venn.config.json` file.
+then get your POLICY ADDRESS from your terminal ![Alt text](./Img/image.png) and update the `.env` and `venn.config.json` file.
 
 ### 7. Setup Dapp SDK.
-Use the Venn DApp SDK to approve transactions before sending them on-chain 
+after updating the `.env` and `venn.config.json` file Use the Venn DApp SDK to approve transactions before sending them on-chain 
 ```bash
 npx hardhat run scripts/approve-tx.js --network holesky
 ```
