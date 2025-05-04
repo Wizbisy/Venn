@@ -9,8 +9,7 @@ This project demonstrates how to deploy a smart contract to the Venn Testnet (Ho
 - **Hardhat**: This project uses Hardhat for smart contract development.
 - **MetaMask**: A wallet with Holesky ETH for deployment and testing (request from [holesky-faucet.com](https://holesky-faucet.com)).
 - **Git**: To clone the repository.
-- **Terminal**: Use a terminal like Command Prompt (Windows), Terminal (macOS/Linux), or Termux (Android).
-
+- **Terminal**: Use a terminal like Command Prompt (Windows), Terminal (macOS/Linux).
 ## Setup
 
 ### 1. Clone the Repository
