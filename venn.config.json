@@ -2,9 +2,8 @@
     "networks": {
         "holesky": {
             "contracts":{
-                "Rare": "0x123"
-            },
-            
+                "Rare": "0xYourContractAddress"
+            }
         }
     }
 }
