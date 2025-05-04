@@ -5,7 +5,6 @@ This project demonstrates how to deploy a smart contract to the Venn Testnet (Ho
 
 - **Node.js and npm**: Install Node.js (v16 or later) and npm on your local machine:
   - **Windows/macOS/Linux**: Download from [nodejs.org](https://nodejs.org).
-  - **Termux (Android)**: Run `pkg install nodejs` or download via `termux-setup-storage`.
 - **Hardhat**: This project uses Hardhat for smart contract development.
 - **MetaMask**: A wallet with Holesky ETH for deployment and testing (request from [holesky-faucet.com](https://holesky-faucet.com)).
 - **Git**: To clone the repository.
