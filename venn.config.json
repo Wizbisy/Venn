@@ -4,7 +4,7 @@
             "contracts":{
                 "Rare": "0x123"
             },
-            "policyAddress": "0x123.."
+            
         }
     }
 }
