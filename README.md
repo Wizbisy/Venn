@@ -40,7 +40,7 @@ run
 ```bash
 npx hardhat compile
 ```
-![Alt text](path/to/image1.png) you should see something just like this 
+![Alt text](./image1.png) you should see something just like this 
 ### 5. Deploy the smart contract 
 Deploy the contract to Holesky testnet.
 ```bash
@@ -53,7 +53,7 @@ after updating the `venn.config.json` file run
 ```bash
 venn enable --network holesky
 ```
-then get your POLICY ADDRESS from your terminal result ![Alt text](path/to/image.png) and update the `.env` and `venn.config.json` file.
+then get your POLICY ADDRESS from your terminal result ![Alt text](./image.png) and update the `.env` and `venn.config.json` file.
 
 ### 7. Setup Dapp SDK.
 Use the Venn DApp SDK to approve transactions before sending them on-chain 
