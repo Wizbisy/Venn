@@ -59,4 +59,3 @@ after updating the `.env` and `venn.config.json` file Use the Venn DApp SDK to a
 ```bash
 npx hardhat run scripts/approve-tx.js --network holesky
 ```
-now head to the [galxe task](https://app.galxe.com/quest/nj4xyZSwmKCysKVriKTCi6/GCg8NtpjAD) amd verify to claim the points.
